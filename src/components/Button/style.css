@@ -1,0 +1,24 @@
+.buton{
+    
+    width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 1px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.buton:hover{
+    cursor: pointer;
+    padding: 10px;
+    background-color:#364257;
+    border-width: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
