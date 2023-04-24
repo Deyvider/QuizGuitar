@@ -14,9 +14,9 @@ useEffect(() => {
         const curtTopics = topics.filter((tp) => 
             tp.level == route.level
         )
-        curtTopics.filter((tp) => tp.genre == route.genre || tp.genre == 'none')
+        const newCurtTopics = curtTopics.filter((tp) => tp.genre == route.genre || tp.genre == 'none')
         
-        setUserTopic(curtTopics)
+        setUserTopic(newCurtTopics)
     }
     fetchTopics();
 },[])
