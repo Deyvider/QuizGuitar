@@ -1,10 +1,11 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import QuizScreen from "../screens/QuizScreen";
+import QuizScreen from "../screens/QuizScreen/QuizScreen";
 import ResultScreen from "../screens/ResultsScreen/";
 import LadingPage from "../screens/LadingPage/LadingPage";
 import LoginScreen from "../screens/LoginScreen/LoginScreen";
 import RoadMapScreen from "../screens/RoadMapScreen/RoadMapScreen";
+// C:\Users\COMPUTOCKS\Desktop\QuizGuitar\src\screens\QuizScreen\QuizScreen.jsx
 
 
 const Router = () => {
