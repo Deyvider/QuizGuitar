@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import QuizScreen from "../screens/QuizScreen/";
+import QuizScreen from "../screens/QuizScreen";
 import ResultScreen from "../screens/ResultsScreen/";
 import LadingPage from "../screens/LadingPage/LadingPage";
 import LoginScreen from "../screens/LoginScreen/LoginScreen";
