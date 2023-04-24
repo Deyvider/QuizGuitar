@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import quizData from "../../assets/Data/quizData";
 import Answer from "../../components/Answer/";
 import "./Style.css";
-import Result from "../../components/Result";
 import { useNavigate } from "react-router-dom";
 
 const QuizScreen = () => {
@@ -13,7 +12,6 @@ const QuizScreen = () => {
   const [level, setLevel] = useState("");
   const [score, setScore] = useState(0);
   const [genre, setGenre] = useState([]);
-  const [isDone, setIsDone] = useState(false);
   const navigation = useNavigate();
 
   const OnChoicePressed = (choice) => {
